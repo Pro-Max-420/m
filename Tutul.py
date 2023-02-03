@@ -8,7 +8,7 @@ xoss('\033[0;91m Checking Your Mobile...?');time.sleep(0.50)
 time.sleep(10)
 def Update():
     exit('\033[1;31m Commands On Update Please Wait For Update')
-def Run():
+def xxr():
         bit = platform.architecture()[0]
         if bit == '64bit':
             xoss("\033[0;92m Congratulations Your Device Support this Tools")
@@ -26,5 +26,5 @@ def Run():
             refat()
         else:
             exit('\033[1;31m Connection & Network Error')
-Run()
+xxr()
  
